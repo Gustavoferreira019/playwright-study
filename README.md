@@ -1,6 +1,4 @@
-![Jornada Milhas](thumbnail.png)
-
-# Jornada Milhas
+# Jornada Milhas Alura
 
 O Jornada Milhas é uma StartUP fictícia. Atualmente, é um site onde podemos buscar por passagens de avisão e até filtrar seus resultados por preços, conexões e companhias. Também conta com as funcionalidades de cadastro, login e edição de perfil.
 
