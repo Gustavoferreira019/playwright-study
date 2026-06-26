@@ -15,7 +15,7 @@ test.describe("Página inicial", () => {
     await expect(ticketHeading).toBeVisible();//Assertion
     await expect(titlePromotion).toBeVisible();//Assertion
     await expect(titleDepoinment).toBeVisible();//Assertion
-    
+
   });
 
 });
