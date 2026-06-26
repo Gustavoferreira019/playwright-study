@@ -1,5 +1,5 @@
 import {test} from "@playwright/test";
-import PaginaInicial from "./project-model/PaginaInicial";
+import PaginaInicial from "../project-model/PaginaInicial";
 
 
 test.describe("Página de Login", () => {
