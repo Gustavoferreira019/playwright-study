@@ -1,5 +1,5 @@
 import {expect, test} from "@playwright/test";
-import PaginaInicial from "./project-model/PaginaInicial";
+import PaginaInicial from "../project-model/PaginaInicial";
 
 const JORNADA_MILHAS = "Jornada Milhas";
 

@@ -12,10 +12,12 @@ export default class PaginaInicial {
   private readonly botaoSomenteIda: Locator;
   private readonly inputDataIda: Locator;
   private botaoBuscar: Locator;
+  private readonly botaoCadastro: Locator;
 
   constructor(page: Page) {
     this.page = page;
     this.botaoLogin = page.getByTestId("botao-login");
+    this.botaoCadastro = page.getByTestId("botao-cadastro");
     this.inputEmail = page.getByTestId("input-email");
     this.inputSenha = page.getByTestId("input-senha");
     this.botaoAcessarConta = page.getByTestId("botao-acessar-conta");
@@ -75,5 +77,10 @@ export default class PaginaInicial {
 
   async botaoBuscarClickado() {
     await this.botaoBuscar.click();
+  }
+
+  async botaoCadastroClickado() {
+    await this.botaoCadastro.click();
+    await expect(this.page).toHaveURL('/auth/cadastro');
   }
 }
